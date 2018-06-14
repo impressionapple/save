@@ -1,0 +1,661 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1EF77C6466AB4A3F79198D67 /* libPods-数据存储.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDC29464022DB9ED9187FFE /* libPods-数据存储.a */; };
+		47B8AEA8EDAA9F3FF7EB0AF8 /* libPods-数据存储Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC431A404A4AF7B4166F590 /* libPods-数据存储Tests.a */; };
+		A7CC831C65AC0A7938B21E34 /* libPods-数据存储UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 200D863083A3F6085E38E705 /* libPods-数据存储UITests.a */; };
+		DAA2047C20D200C300F55933 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2047B20D200C300F55933 /* AppDelegate.m */; };
+		DAA2047F20D200C300F55933 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2047E20D200C300F55933 /* ViewController.m */; };
+		DAA2048220D200C300F55933 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA2048020D200C300F55933 /* Main.storyboard */; };
+		DAA2048420D200C300F55933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAA2048320D200C300F55933 /* Assets.xcassets */; };
+		DAA2048720D200C300F55933 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAA2048520D200C300F55933 /* LaunchScreen.storyboard */; };
+		DAA2048A20D200C300F55933 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2048920D200C300F55933 /* main.m */; };
+		DAA2049420D200C300F55933 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2049320D200C300F55933 /* ____Tests.m */; };
+		DAA2049F20D200C300F55933 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DAA2049E20D200C300F55933 /* ____UITests.m */; };
+		DAA204AD20D203CC00F55933 /* shops.plist in Resources */ = {isa = PBXBuildFile; fileRef = DAA204AC20D203CC00F55933 /* shops.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DAA2049020D200C300F55933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA2046F20D200C300F55933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA2047620D200C300F55933;
+			remoteInfo = "数据存储";
+		};
+		DAA2049B20D200C300F55933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DAA2046F20D200C300F55933 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DAA2047620D200C300F55933;
+			remoteInfo = "数据存储";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		200D863083A3F6085E38E705 /* libPods-数据存储UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-数据存储UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		308450313AE0CF751B8112F0 /* Pods-数据存储UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据存储UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-数据存储UITests/Pods-数据存储UITests.release.xcconfig"; sourceTree = "<group>"; };
+		3FB973F83E57F9F0000A79A9 /* Pods-数据存储Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据存储Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-数据存储Tests/Pods-数据存储Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4778C8AB8F5CDF182B7824D6 /* Pods-数据存储.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据存储.debug.xcconfig"; path = "Pods/Target Support Files/Pods-数据存储/Pods-数据存储.debug.xcconfig"; sourceTree = "<group>"; };
+		62E80157C755B03889596251 /* Pods-数据存储.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据存储.release.xcconfig"; path = "Pods/Target Support Files/Pods-数据存储/Pods-数据存储.release.xcconfig"; sourceTree = "<group>"; };
+		ACB86CEBA6213EE2A26204C1 /* Pods-数据存储Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据存储Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-数据存储Tests/Pods-数据存储Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CE3ED67F65330402DB814493 /* Pods-数据存储UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-数据存储UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-数据存储UITests/Pods-数据存储UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CEDC29464022DB9ED9187FFE /* libPods-数据存储.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-数据存储.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2047720D200C300F55933 /* 数据存储.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "数据存储.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2047A20D200C300F55933 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DAA2047B20D200C300F55933 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DAA2047D20D200C300F55933 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DAA2047E20D200C300F55933 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DAA2048120D200C300F55933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DAA2048320D200C300F55933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DAA2048620D200C300F55933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DAA2048820D200C300F55933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2048920D200C300F55933 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DAA2048F20D200C300F55933 /* 数据存储Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据存储Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2049320D200C300F55933 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		DAA2049520D200C300F55933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA2049A20D200C300F55933 /* 数据存储UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "数据存储UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DAA2049E20D200C300F55933 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		DAA204A020D200C300F55933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAA204AC20D203CC00F55933 /* shops.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = shops.plist; sourceTree = "<group>"; };
+		DCC431A404A4AF7B4166F590 /* libPods-数据存储Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-数据存储Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DAA2047420D200C300F55933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EF77C6466AB4A3F79198D67 /* libPods-数据存储.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2048C20D200C300F55933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B8AEA8EDAA9F3FF7EB0AF8 /* libPods-数据存储Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2049720D200C300F55933 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7CC831C65AC0A7938B21E34 /* libPods-数据存储UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		270205116427C266E366E80B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4778C8AB8F5CDF182B7824D6 /* Pods-数据存储.debug.xcconfig */,
+				62E80157C755B03889596251 /* Pods-数据存储.release.xcconfig */,
+				ACB86CEBA6213EE2A26204C1 /* Pods-数据存储Tests.debug.xcconfig */,
+				3FB973F83E57F9F0000A79A9 /* Pods-数据存储Tests.release.xcconfig */,
+				CE3ED67F65330402DB814493 /* Pods-数据存储UITests.debug.xcconfig */,
+				308450313AE0CF751B8112F0 /* Pods-数据存储UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DAA2046E20D200C300F55933 = {
+			isa = PBXGroup;
+			children = (
+				DAA2047920D200C300F55933 /* 数据存储 */,
+				DAA2049220D200C300F55933 /* 数据存储Tests */,
+				DAA2049D20D200C300F55933 /* 数据存储UITests */,
+				DAA2047820D200C300F55933 /* Products */,
+				270205116427C266E366E80B /* Pods */,
+				E50EF02D15BBB07F0D68DD22 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA2047820D200C300F55933 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2047720D200C300F55933 /* 数据存储.app */,
+				DAA2048F20D200C300F55933 /* 数据存储Tests.xctest */,
+				DAA2049A20D200C300F55933 /* 数据存储UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DAA2047920D200C300F55933 /* 数据存储 */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2047A20D200C300F55933 /* AppDelegate.h */,
+				DAA2047B20D200C300F55933 /* AppDelegate.m */,
+				DAA2047D20D200C300F55933 /* ViewController.h */,
+				DAA2047E20D200C300F55933 /* ViewController.m */,
+				DAA204AC20D203CC00F55933 /* shops.plist */,
+				DAA2048020D200C300F55933 /* Main.storyboard */,
+				DAA2048320D200C300F55933 /* Assets.xcassets */,
+				DAA2048520D200C300F55933 /* LaunchScreen.storyboard */,
+				DAA2048820D200C300F55933 /* Info.plist */,
+				DAA2048920D200C300F55933 /* main.m */,
+			);
+			path = "数据存储";
+			sourceTree = "<group>";
+		};
+		DAA2049220D200C300F55933 /* 数据存储Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2049320D200C300F55933 /* ____Tests.m */,
+				DAA2049520D200C300F55933 /* Info.plist */,
+			);
+			path = "数据存储Tests";
+			sourceTree = "<group>";
+		};
+		DAA2049D20D200C300F55933 /* 数据存储UITests */ = {
+			isa = PBXGroup;
+			children = (
+				DAA2049E20D200C300F55933 /* ____UITests.m */,
+				DAA204A020D200C300F55933 /* Info.plist */,
+			);
+			path = "数据存储UITests";
+			sourceTree = "<group>";
+		};
+		E50EF02D15BBB07F0D68DD22 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDC29464022DB9ED9187FFE /* libPods-数据存储.a */,
+				DCC431A404A4AF7B4166F590 /* libPods-数据存储Tests.a */,
+				200D863083A3F6085E38E705 /* libPods-数据存储UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DAA2047620D200C300F55933 /* 数据存储 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA204A320D200C300F55933 /* Build configuration list for PBXNativeTarget "数据存储" */;
+			buildPhases = (
+				B963BECD9D984F67D888875C /* [CP] Check Pods Manifest.lock */,
+				DAA2047320D200C300F55933 /* Sources */,
+				DAA2047420D200C300F55933 /* Frameworks */,
+				DAA2047520D200C300F55933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "数据存储";
+			productName = "数据存储";
+			productReference = DAA2047720D200C300F55933 /* 数据存储.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DAA2048E20D200C300F55933 /* 数据存储Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA204A620D200C300F55933 /* Build configuration list for PBXNativeTarget "数据存储Tests" */;
+			buildPhases = (
+				FEEE17A979A081EA590927EB /* [CP] Check Pods Manifest.lock */,
+				DAA2048B20D200C300F55933 /* Sources */,
+				DAA2048C20D200C300F55933 /* Frameworks */,
+				DAA2048D20D200C300F55933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA2049120D200C300F55933 /* PBXTargetDependency */,
+			);
+			name = "数据存储Tests";
+			productName = "数据存储Tests";
+			productReference = DAA2048F20D200C300F55933 /* 数据存储Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DAA2049920D200C300F55933 /* 数据存储UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAA204A920D200C300F55933 /* Build configuration list for PBXNativeTarget "数据存储UITests" */;
+			buildPhases = (
+				557C9BEE9934E3D0C20FAC4F /* [CP] Check Pods Manifest.lock */,
+				DAA2049620D200C300F55933 /* Sources */,
+				DAA2049720D200C300F55933 /* Frameworks */,
+				DAA2049820D200C300F55933 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DAA2049C20D200C300F55933 /* PBXTargetDependency */,
+			);
+			name = "数据存储UITests";
+			productName = "数据存储UITests";
+			productReference = DAA2049A20D200C300F55933 /* 数据存储UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DAA2046F20D200C300F55933 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mac_UI;
+				TargetAttributes = {
+					DAA2047620D200C300F55933 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					DAA2048E20D200C300F55933 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAA2047620D200C300F55933;
+					};
+					DAA2049920D200C300F55933 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DAA2047620D200C300F55933;
+					};
+				};
+			};
+			buildConfigurationList = DAA2047220D200C300F55933 /* Build configuration list for PBXProject "数据存储" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DAA2046E20D200C300F55933;
+			productRefGroup = DAA2047820D200C300F55933 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DAA2047620D200C300F55933 /* 数据存储 */,
+				DAA2048E20D200C300F55933 /* 数据存储Tests */,
+				DAA2049920D200C300F55933 /* 数据存储UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DAA2047520D200C300F55933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2048720D200C300F55933 /* LaunchScreen.storyboard in Resources */,
+				DAA2048420D200C300F55933 /* Assets.xcassets in Resources */,
+				DAA204AD20D203CC00F55933 /* shops.plist in Resources */,
+				DAA2048220D200C300F55933 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2048D20D200C300F55933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2049820D200C300F55933 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		557C9BEE9934E3D0C20FAC4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-数据存储UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B963BECD9D984F67D888875C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-数据存储-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEE17A979A081EA590927EB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-数据存储Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DAA2047320D200C300F55933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2047F20D200C300F55933 /* ViewController.m in Sources */,
+				DAA2048A20D200C300F55933 /* main.m in Sources */,
+				DAA2047C20D200C300F55933 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2048B20D200C300F55933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2049420D200C300F55933 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAA2049620D200C300F55933 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAA2049F20D200C300F55933 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DAA2049120D200C300F55933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA2047620D200C300F55933 /* 数据存储 */;
+			targetProxy = DAA2049020D200C300F55933 /* PBXContainerItemProxy */;
+		};
+		DAA2049C20D200C300F55933 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DAA2047620D200C300F55933 /* 数据存储 */;
+			targetProxy = DAA2049B20D200C300F55933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DAA2048020D200C300F55933 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA2048120D200C300F55933 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DAA2048520D200C300F55933 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DAA2048620D200C300F55933 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DAA204A120D200C300F55933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DAA204A220D200C300F55933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DAA204A420D200C300F55933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4778C8AB8F5CDF182B7824D6 /* Pods-数据存储.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据存储/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailei.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DAA204A520D200C300F55933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E80157C755B03889596251 /* Pods-数据存储.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据存储/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailei.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DAA204A720D200C300F55933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACB86CEBA6213EE2A26204C1 /* Pods-数据存储Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据存储Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailei.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数据存储.app/数据存储";
+			};
+			name = Debug;
+		};
+		DAA204A820D200C300F55933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB973F83E57F9F0000A79A9 /* Pods-数据存储Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据存储Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailei.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/数据存储.app/数据存储";
+			};
+			name = Release;
+		};
+		DAA204AA20D200C300F55933 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE3ED67F65330402DB814493 /* Pods-数据存储UITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据存储UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailei.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "数据存储";
+			};
+			name = Debug;
+		};
+		DAA204AB20D200C300F55933 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 308450313AE0CF751B8112F0 /* Pods-数据存储UITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "数据存储UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.sailei.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "数据存储";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DAA2047220D200C300F55933 /* Build configuration list for PBXProject "数据存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA204A120D200C300F55933 /* Debug */,
+				DAA204A220D200C300F55933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA204A320D200C300F55933 /* Build configuration list for PBXNativeTarget "数据存储" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA204A420D200C300F55933 /* Debug */,
+				DAA204A520D200C300F55933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA204A620D200C300F55933 /* Build configuration list for PBXNativeTarget "数据存储Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA204A720D200C300F55933 /* Debug */,
+				DAA204A820D200C300F55933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAA204A920D200C300F55933 /* Build configuration list for PBXNativeTarget "数据存储UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DAA204AA20D200C300F55933 /* Debug */,
+				DAA204AB20D200C300F55933 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DAA2046F20D200C300F55933 /* Project object */;
+}
